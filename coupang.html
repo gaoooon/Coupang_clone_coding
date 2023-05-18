@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="coupang.css" />
+    <title>회원가입</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="logo">
+        <img
+          src="https://static.coupangcdn.com/image/static/login/logo-coupang.x2.20201201.png"
+          class="coupang"
+        />
+      </div>
+      <div class="title">회원정보를 입력해주세요</div>
+      <div class="input">
+        <div class="set one">
+          <img src="./icon.png" class="icon" />
+          <input class="shs" type="text" placeholder="   아이디(이메일)" />
+        </div>
+        <div class="set two">
+          <img src="./icon1.png" class="icon" />
+          <input class="shs" type="password" placeholder="   비밀번호" />
+        </div>
+        <div class="set three">
+          <img src="./icon2.png" class="icon" />
+          <input class="shs" type="text" placeholder="   비밀번호 확인" />
+        </div>
+        <div class="set four">
+          <img src="./icon3.png" class="icon" />
+          <input class="shs" type="text" placeholder="   이름" />
+        </div>
+        <div class="set five">
+          <img src="./icon4.png" class="icon" />
+          <input class="shs" type="text" placeholder="   휴대폰 번호" />
+        </div>
+      </div>
+      <div class="check">
+        <div class="vcheck">
+          <input type="checkbox" class="checkbox" />
+        </div>
+        <span class="accept"> 모두 확인하였으며 동의합니다. </span>
+        <span class="message"
+          >전체 동의에는 필수 및 선택 정보에 대한 동의가 포함되어 있으며,
+          개별적으로 동의를 선택 하실 수 있습니다. 선택 항목에 대한 동의를
+          거부하시는 경우에도 서비스 이용이 가능합니다.</span
+        >
+      </div>
+      <ul class="terms">
+        <div class="item">
+          <input type="checkbox" class="checkbox" />
+          <span class="text">[필수] 만 14세 이상입니다</span>
+        </div>
+        <div class="item">
+          <input type="checkbox" class="checkbox" />
+          <span class="text"> [필수] 쿠팡 이용약관 동의</span>
+          <img
+            class="plus"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxnPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iIzIxMkIzNiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNNS4xODEgMi4yMWMuMjMzLS4yNDguNjEtLjI3OC44NzgtLjA4MmwuMDY1LjA1MyA1LjY2NiA1LjMzNGMuMjYuMjQ0LjI3OC42NDUuMDU2LjkxMWwtLjA1Ni4wNi01LjY2NiA1LjMzM2MtLjI2OS4yNTItLjY5LjI0LS45NDMtLjAyOS0uMjMzLS4yNDctLjI0LS42MjYtLjAyOS0uODgxbC4wNTgtLjA2MUwxMC4zNiA4IDUuMjEgMy4xNTJjLS4yNDgtLjIzMy0uMjc4LS42MS0uMDgyLS44NzhsLjA1My0uMDY0eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTcxMTUgLTgxNikgdHJhbnNsYXRlKDcxMTUgODE2KSIvPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1vcGFjaXR5PSIwIiBkPSJNMCAxNkwxNiAxNiAxNiAwIDAgMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MTE1IC04MTYpIHRyYW5zbGF0ZSg3MTE1IDgxNikiLz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+          />
+        </div>
+        <div class="item">
+          <input type="checkbox" class="checkbox" />
+          <span class="text">[필수] 전자금융거래 이용약관 동의</span>
+          <img
+            class="plus"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxnPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iIzIxMkIzNiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNNS4xODEgMi4yMWMuMjMzLS4yNDguNjEtLjI3OC44NzgtLjA4MmwuMDY1LjA1MyA1LjY2NiA1LjMzNGMuMjYuMjQ0LjI3OC42NDUuMDU2LjkxMWwtLjA1Ni4wNi01LjY2NiA1LjMzM2MtLjI2OS4yNTItLjY5LjI0LS45NDMtLjAyOS0uMjMzLS4yNDctLjI0LS42MjYtLjAyOS0uODgxbC4wNTgtLjA2MUwxMC4zNiA4IDUuMjEgMy4xNTJjLS4yNDgtLjIzMy0uMjc4LS42MS0uMDgyLS44NzhsLjA1My0uMDY0eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTcxMTUgLTgxNikgdHJhbnNsYXRlKDcxMTUgODE2KSIvPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1vcGFjaXR5PSIwIiBkPSJNMCAxNkwxNiAxNiAxNiAwIDAgMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MTE1IC04MTYpIHRyYW5zbGF0ZSg3MTE1IDgxNikiLz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+          />
+        </div>
+        <div class="item">
+          <input type="checkbox" class="checkbox" />
+          <span class="text">[필수] 개인정보 수집 및 이용 동의</span>
+          <img
+            class="plus"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxnPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iIzIxMkIzNiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNNS4xODEgMi4yMWMuMjMzLS4yNDguNjEtLjI3OC44NzgtLjA4MmwuMDY1LjA1MyA1LjY2NiA1LjMzNGMuMjYuMjQ0LjI3OC42NDUuMDU2LjkxMWwtLjA1Ni4wNi01LjY2NiA1LjMzM2MtLjI2OS4yNTItLjY5LjI0LS45NDMtLjAyOS0uMjMzLS4yNDctLjI0LS42MjYtLjAyOS0uODgxbC4wNTgtLjA2MUwxMC4zNiA4IDUuMjEgMy4xNTJjLS4yNDgtLjIzMy0uMjc4LS42MS0uMDgyLS44NzhsLjA1My0uMDY0eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTcxMTUgLTgxNikgdHJhbnNsYXRlKDcxMTUgODE2KSIvPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1vcGFjaXR5PSIwIiBkPSJNMCAxNkwxNiAxNiAxNiAwIDAgMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MTE1IC04MTYpIHRyYW5zbGF0ZSg3MTE1IDgxNikiLz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+          />
+        </div>
+        <div class="item">
+          <input type="checkbox" class="checkbox" />
+          <span class="text">[필수] 개인정보 제3자 제공 동의</span>
+          <img
+            class="plus"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxnPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iIzIxMkIzNiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNNS4xODEgMi4yMWMuMjMzLS4yNDguNjEtLjI3OC44NzgtLjA4MmwuMDY1LjA1MyA1LjY2NiA1LjMzNGMuMjYuMjQ0LjI3OC42NDUuMDU2LjkxMWwtLjA1Ni4wNi01LjY2NiA1LjMzM2MtLjI2OS4yNTItLjY5LjI0LS45NDMtLjAyOS0uMjMzLS4yNDctLjI0LS42MjYtLjAyOS0uODgxbC4wNTgtLjA2MUwxMC4zNiA4IDUuMjEgMy4xNTJjLS4yNDgtLjIzMy0uMjc4LS42MS0uMDgyLS44NzhsLjA1My0uMDY0eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTcxMTUgLTgxNikgdHJhbnNsYXRlKDcxMTUgODE2KSIvPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1vcGFjaXR5PSIwIiBkPSJNMCAxNkwxNiAxNiAxNiAwIDAgMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MTE1IC04MTYpIHRyYW5zbGF0ZSg3MTE1IDgxNikiLz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+          />
+        </div>
+        <div class="item">
+          <input type="checkbox" class="checkbox" />
+          <span class="text"
+            >[선택] 마케팅 목적의 개인정보 수집 및 이용 동의</span
+          >
+          <img
+            class="plus"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxnPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iIzIxMkIzNiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNNS4xODEgMi4yMWMuMjMzLS4yNDguNjEtLjI3OC44NzgtLjA4MmwuMDY1LjA1MyA1LjY2NiA1LjMzNGMuMjYuMjQ0LjI3OC42NDUuMDU2LjkxMWwtLjA1Ni4wNi01LjY2NiA1LjMzM2MtLjI2OS4yNTItLjY5LjI0LS45NDMtLjAyOS0uMjMzLS4yNDctLjI0LS42MjYtLjAyOS0uODgxbC4wNTgtLjA2MUwxMC4zNiA4IDUuMjEgMy4xNTJjLS4yNDgtLjIzMy0uMjc4LS42MS0uMDgyLS44NzhsLjA1My0uMDY0eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTcxMTUgLTgxNikgdHJhbnNsYXRlKDcxMTUgODE2KSIvPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1vcGFjaXR5PSIwIiBkPSJNMCAxNkwxNiAxNiAxNiAwIDAgMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MTE1IC04MTYpIHRyYW5zbGF0ZSg3MTE1IDgxNikiLz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+          />
+        </div>
+        <div class="item">
+          <input type="checkbox" class="checkbox" />
+          <span class="text">[선택] 광고성 정보 수신 동의</span>
+          <img
+            class="plus"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxnPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iIzIxMkIzNiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNNS4xODEgMi4yMWMuMjMzLS4yNDguNjEtLjI3OC44NzgtLjA4MmwuMDY1LjA1MyA1LjY2NiA1LjMzNGMuMjYuMjQ0LjI3OC42NDUuMDU2LjkxMWwtLjA1Ni4wNi01LjY2NiA1LjMzM2MtLjI2OS4yNTItLjY5LjI0LS45NDMtLjAyOS0uMjMzLS4yNDctLjI0LS42MjYtLjAyOS0uODgxbC4wNTgtLjA2MUwxMC4zNiA4IDUuMjEgMy4xNTJjLS4yNDgtLjIzMy0uMjc4LS42MS0uMDgyLS44NzhsLjA1My0uMDY0eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTcxMTUgLTgxNikgdHJhbnNsYXRlKDcxMTUgODE2KSIvPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1vcGFjaXR5PSIwIiBkPSJNMCAxNkwxNiAxNiAxNiAwIDAgMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MTE1IC04MTYpIHRyYW5zbGF0ZSg3MTE1IDgxNikiLz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+          />
+        </div>
+        <div class="mini">
+          <input type="checkbox" class="checkbox" />
+          <span class="text">[선택] 이메일 수신 동의</span>
+        </div>
+        <div class="mini">
+          <input type="checkbox" class="checkbox" />
+          <span class="text">[선택] SMS, SNS 수신 동의</span>
+        </div>
+        <div style="padding-left: 22px">
+          <input type="checkbox" class="checkbox" />
+          <span class="text">[선택] 앱 푸시 수신 동의 </span>
+        </div>
+      </ul>
+      <div class="button">
+        <button>동의하고 계속하기</button>
+      </div>
+      <div class="bottom">
+        <p>법인 고객이신가요?</p>
+        <p>사업자 회원으로 전용 특가 혜택을 누려보세요.</p>
+        <div class="ct">
+          <a href="">쿠팡비즈 간편가입</a>
+          <img
+            style="position: relative; left: -5px; top: 2px"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxnPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iIzIxMkIzNiIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNNS4xODEgMi4yMWMuMjMzLS4yNDguNjEtLjI3OC44NzgtLjA4MmwuMDY1LjA1MyA1LjY2NiA1LjMzNGMuMjYuMjQ0LjI3OC42NDUuMDU2LjkxMWwtLjA1Ni4wNi01LjY2NiA1LjMzM2MtLjI2OS4yNTItLjY5LjI0LS45NDMtLjAyOS0uMjMzLS4yNDctLjI0LS42MjYtLjAyOS0uODgxbC4wNTgtLjA2MUwxMC4zNiA4IDUuMjEgMy4xNTJjLS4yNDgtLjIzMy0uMjc4LS42MS0uMDgyLS44NzhsLjA1My0uMDY0eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTcxMTUgLTgxNikgdHJhbnNsYXRlKDcxMTUgODE2KSIvPgogICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1vcGFjaXR5PSIwIiBkPSJNMCAxNkwxNiAxNiAxNiAwIDAgMHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MTE1IC04MTYpIHRyYW5zbGF0ZSg3MTE1IDgxNikiLz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+          />
+        </div>
+        <footer>©Coupang Corp. All rights reserved.</footer>
+      </div>
+    </div>
+  </body>
+</html>
