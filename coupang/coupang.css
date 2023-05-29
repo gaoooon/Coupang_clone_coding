@@ -135,8 +135,16 @@ footer {
   padding-bottom: 40px;
 }
 .checkbox {
-  display: inline;
+  display: inline-block;
   margin: 0;
   width: 19.9px;
   height: 19.9px;
+  cursor: pointer;
+}
+
+.img {
+  background-image: url(checkBox.svg);
+}
+.imgChange {
+  background-image: url(clickedChexkBox.svg);
 }
