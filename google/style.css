@@ -36,10 +36,11 @@ input {
   width: 460px;
   height: 42px;
   font-size: inherit;
+  border: none;
 }
 
 .searching > * {
-  display: inline;
+  display: inline-block;
 }
 
 form {
@@ -80,4 +81,27 @@ object {
   font-size: 13px;
   position: absolute;
   bottom: 20px;
+}
+
+.searching {
+  padding-left: 48px;
+  padding-right: 48px;
+  box-shadow: 0px 0px 5px 1px rgb(213, 213, 213);
+  border-radius: 25px;
+  position: relative;
+}
+
+.gamja,
+.jumuk {
+  position: absolute;
+}
+
+.gamja {
+  top: 11px;
+  left: 15px;
+}
+
+.jumuk {
+  top: 9px;
+  right: 15px;
 }
