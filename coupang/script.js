@@ -1,6 +1,7 @@
 const checkBox = document.querySelectorAll(".checkbox");
 
 function handleClickCheckBox(event) {
+  ``;
   const target = event.target;
   if (target.classList.contains("img")) {
     target.classList.remove("img");
