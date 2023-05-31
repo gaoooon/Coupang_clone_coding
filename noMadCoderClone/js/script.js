@@ -39,7 +39,7 @@ function handleSubmitedForm(event) {
 
 function paintingGreeting() {
   const username = localStorage.getItem(STORAGE_KEY);
-  greeting.innerText = `hi ${username}`;
+  greeting.innerText = `hello ${username}`;
   greeting.classList.remove(CLASS_NAME);
 }
 

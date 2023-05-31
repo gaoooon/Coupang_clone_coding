@@ -20,14 +20,14 @@ function saveToDos() {
 function paintToDo(newToDo) {
   const li = document.createElement("li");
   const span = document.createElement("span");
-  const button = document.createElement("button");
-  button.innerText = "X";
+  const img = document.createElement("img");
+  img.src = "x-mark.png";
   li.appendChild(span);
-  li.appendChild(button);
+  li.appendChild(img);
   span.innerText = newToDo.text;
   li.id = newToDo.id;
   toDoList.appendChild(li);
-  button.addEventListener("click", deleteToDo);
+  img.addEventListener("click", deleteToDo);
 }
 
 function handleToDoSubmit(event) {

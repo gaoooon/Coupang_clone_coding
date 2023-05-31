@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    color: #fff;
+}
+
+input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 4px solid #fff;
+    width: 300px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+#login-form {
+    margin-bottom: 80px;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.size {
+    height: 100vh;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+#weather {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input:focus {
+    outline:none;
+}
+
+ul {
+    list-style-image: url(toDoIcon.png);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button img {
+    border: none;
+    background-color: transparent;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
