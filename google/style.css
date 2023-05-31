@@ -93,15 +93,37 @@ object {
 
 .gamja,
 .jumuk {
+  width: 22px;
   position: absolute;
 }
 
-.gamja {
-  top: 11px;
-  left: 15px;
-}
+@media (max-width: 430px) {
+  .gamja {
+    top: 7.5px;
+    left: 15px;
+  }
 
-.jumuk {
-  top: 9px;
-  right: 15px;
+  .jumuk {
+    top: 7px;
+    right: 15px;
+  }
+
+  .searching {
+    padding-left: 48px;
+    padding-right: 48px;
+    box-shadow: 0px 0px 5px 1px rgb(213, 213, 213);
+    border-radius: 25px;
+    position: relative;
+  }
+
+  input {
+    width: 250px;
+    height: 35px;
+    font-size: inherit;
+    border: none;
+  }
+
+  ::placeholder {
+    font-size: 14px;
+  }
 }
