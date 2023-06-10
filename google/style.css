@@ -91,9 +91,17 @@ object {
   position: relative;
 }
 
-.gamja,
+.gamja {
+  top : 12px;
+  left : 17px;
+  width: 20px;
+  position: absolute;
+}
+
 .jumuk {
-  width: 22px;
+  top : 11px;
+  right: 17px;
+  width: 21px;
   position: absolute;
 }
 
